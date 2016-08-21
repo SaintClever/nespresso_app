@@ -1,0 +1,27 @@
+{
+	"shop": [
+		{
+			"product": "VertuoLine"
+		},
+		{
+			"product": "OriginalLine"
+		}
+	],
+
+	"machine": [
+		{
+			"makeAndModel": "Inissia D40 Espresso Machine - Black"
+		},
+
+		{
+			"makeAndModel": "VertuoLine Coffee and Espresso Machine Bundle"
+		},
+		{
+			"makeAndModel": "De Longhi Lattissima+ Espresso Maker - Silver"
+		},
+		{
+			"makeAndModel": "Pixie C60 Espresso Machine - Electric Titan"
+		}
+	]
+
+}

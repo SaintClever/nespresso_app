@@ -1,0 +1,73 @@
+<div class="navbar navbar-default navbar-fixed-top role=navigation">
+	<div class="container">
+		<div class="navbar-header">
+
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">
+					Toggle Navigation
+				</span>
+				<span class="icon-bar">
+					
+				</span>
+				<span class="icon-bar">
+					
+				</span>
+				<span class="icon-bar">
+					
+				</span>
+			</button>
+		
+		
+			<a class="navbar-brand" href="#">
+				<div class="logo">
+					<img src="../images/nespresso-logo-2.png">
+				</div>
+			</a>
+		</div>
+
+		<div class="navbar-collapse collapse">
+			
+			<ul class="nav navbar-nav navbar-right">
+
+				<li class="dropdown">
+				<a href="/" class="dropdown-toggle" data-toggle="dropdown">Shop <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+					<ul class="dropdown-menu">
+						<% for (var i = 0; i < shop.length; i++) { %>
+						<table>
+						  <tr>
+						    <th align="center" style="padding: 0px 15px 5px 5px;"><a href="#"><%= shop[i].product %></a></th>
+						    <th align="center" style="padding: 0px 15px 5px 5px;"><a href="#"><%= shop[i].product %></a></th>
+						    <th align="center" style="padding: 0px 15px 5px 5px;"><a href="#"><%= shop[i].product %></a></th>
+						  </tr>
+						  <tr>
+						    <td align="center" style="padding: 0px 15px 5px 5px;"><img src="../images/icon (9).png" width="50" height="50"><br><br></td>
+						    <td align="center" style="padding: 0px 15px 5px 5px;"><img src="../images/icon (11).png" width="50" height="50"><br><br></td>
+						    <td align="center" style="padding: 0px 15px 5px 5px;"><img src="../images/icon (13).png" width="50" height="50"><br><br></td>
+						  </tr>
+						</table>
+						<% } %>
+					</ul>
+				</li>
+
+				<li><a href="#">Coffee</a></li>
+				<li><a href="#">Machines</a></li>
+
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Machines <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+					<ul class="dropdown-menu">
+						<% for (var i = 0; i < machine.length; i++) { %>
+							<li><a href="#"><%= machine[i].makeAndModel %></a></li>
+						<% } %>
+					</ul>
+				</li>
+
+				<li><a href="#">Accessories</a></li>
+				<li><a href="#">Our Services</a></li>
+				<li><a href="#">Store Locator</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">For Your Business</a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>

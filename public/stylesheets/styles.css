@@ -1,0 +1,284 @@
+p. h1 {
+	font-family: 'Signika Negative', sans-serif;
+}
+
+p {
+	color: #ffffff;
+}
+
+/* Navbar */
+
+.navbar-default {
+	background-color: rgba(0, 0, 0, 0.75);
+	border-color: transparent;
+}
+
+.navbar-nav {
+	font-family: 'Signika Negative', sans-serif;
+	margin: 35px 75px 10px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #cc9933;
+}
+
+.logo img {
+	margin: 0 0 0 0;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: rgba(0, 0, 0, 0);
+	color: #cc9933;
+}
+
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+/* Media Queries*/
+
+@media(max-width: 768px) {
+
+	.logo img {
+		background: url('../images/nespresso (16).jpg');
+		display: none;
+		margin: 10px 0 0 15px;
+	}
+
+	.navbar-nav {
+		margin: 0;
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+
+	.navbar-toggle {
+		margin-top: 45px;
+	}
+
+	#design {
+		text-align: center;
+	}
+
+	#community .image {
+		padding-bottom: 15px;
+	}
+
+	#footer {
+		text-align: center;
+	}
+
+	#footer img {
+		margin: 0 auto;
+	}
+
+}
+
+
+/* SLIDER */
+
+#slider {
+	background: url('../images/nespresso (16).jpg');
+	width: 100%;
+	background-size: cover;
+}
+
+.item {
+	color: #fff;
+	padding: 200px 0;
+}
+
+.item h1 {
+	font-size: 2.8em;
+}
+
+.carousel-indicators li {
+	background-color: #fff;
+	margin: 5px;
+}
+
+.carousel-indicators .active {
+	background-color: #cc9933;
+	border: 1px solid #cc9933;
+	margin: 5px;		
+}
+
+.btn-success {
+	background-color: #cc9933;
+	border: #cc9933;
+	font-size: 0.8em;
+	padding: 10px 20px 10px 20px;
+	margin: 15px 0;
+}
+
+.btn-success:hover {
+	background-color: #000;
+}
+
+.btn-success:focus, .btn-success:active:focus {
+	background-color: #cc9933;
+}
+
+
+/* PHOTO */
+
+#photo {
+	background: url('../images/nespresso (20).jpg');
+	background-color: #333333;
+	padding: 80px 0 80px 0;
+	text-align: center;
+}
+
+#photo h1 {
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #cc9933;
+}
+
+#photo .fa {
+	color: #ffffff;
+}
+
+#photo .fa:hover {
+	color: #000000;
+}
+
+
+/* DESIGN */
+
+#design {
+	padding: 80px 0 80px;
+	background-color: #000000;
+}
+
+#design h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #cc9933;
+	padding-top: 30px;
+}
+
+
+/* COMMUNITY */
+
+#community {
+	background: url('../images/nespresso (20).jpg');
+	background-color: #333333;
+	padding: 80px 0 80px;
+}
+
+#community h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #cc9933;
+}
+
+#community .green {
+	padding-top: 30px;
+}
+
+
+/* SIGNUP */
+
+#signup {
+	background: url('../images/nespresso (17).jpg');
+	background-color: #000000;
+	width: 100%;
+	background-size: cover;
+	padding: 300px 0 300px;
+}
+
+#signup h1 {
+	font-size: 1.5em;
+	font-weight: 700px;
+	color: #fff;
+	text-align: center;
+}
+
+#signup .btn-default {
+	background-color: #cc9933;
+	border-color: #cc9933;
+}
+
+#signup .btn-default:hover {
+	background-color: #000;
+	border-color: #000;
+}
+
+#signup .fa {
+	color: #fff;
+}
+
+
+/* DOWNLOAD */
+
+#download {
+	background: url('../images/nespresso_app.jpg');
+	background-color: #000000;
+	padding: 80px 0 80px;
+	text-align: center;
+	width: 100%;
+	background-size: cover;
+	/*padding: 300px 0 300px;*/
+}
+
+#download h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #cc9933;
+}
+
+#download img {
+	margin-top: 15px;
+}
+
+
+/* FOOTER */
+
+#footer {
+	background-color: #000000;
+	padding: 50px 0 50px;
+}
+
+#footer p {
+	font-weight: 700;
+}
+
+#footer a {
+	color: #ffffff;
+}
+
+#footer a:hover {
+	color: #cc9933;
+	text-decoration: none;
+}
+
+
+/* CAMBRIA DIVISION */
+
+#background {
+  height: 500px;
+	width: 100%;
+	padding-top: 1px; 
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 7);
+}
+
+.logo {
+	padding-top: 75px;
+}
+
+.description h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #cc9933;
+}
+
+.quick_glance {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #cc9933;
+}
